@@ -1,0 +1,1 @@
+class ZenCoin extends Component {}

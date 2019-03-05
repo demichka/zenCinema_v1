@@ -1,0 +1,55 @@
+<section class="container-fluid">
+  <section class="row">
+    <section class="col-12 px-0">
+      <div class="startpage-carousel">
+        ${this.filmCarousel}
+        <div class="carousel-gradient"></div>
+      </div>
+    </section>
+  </section>
+  <section class="container main-container-fade text-dark">
+    <section class="row py-5">
+      <section class="col-12 col-md-6">
+        <section class="container-fluid">
+          <section class="row">
+            <section class="col-12 mb-5 rounded border border-secondary px-0">
+              ${this.zenCoin}
+              <div class="bg-light border-top border-dark p-3">
+                <h3>ZenCoins</h3>
+                <p>Snart lanserar vi vår senaste nyhet, ZenCoins! Dessa kommer att intjänas genom de bokningar ni gör
+                  hos oss.</p>
+              </div>
+            </section>
+            <section class="col-12 mb-5 rounded border cinema-link border-secondary px-0">
+              <a href="/om-oss/salonger">
+                <img class="img-fluid rounded-top" src="/images/cinema.jpg" alt="Bild på salong">
+              </a>
+              <div class="bg-light border-top border-dark p-3">
+                <h3>Våra salonger</h3>
+                <p>Spana in lite information om våra utomordentligt mysiga salonger.</p>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section class="col-12 col-md-6">
+        <section class="container-fluid">
+          <section class="row">
+            <section class="col-12 mb-5 rounded border cinema-link border-secondary px-0">
+              <a href="/om-oss/kiosken">
+                <img class="img-fluid rounded-top" src="/images/kiosk/jumbo.jpg" alt="Bild på godis">
+              </a>
+              <div class="bg-light border-top border-dark p-3">
+                <h3>Kiosken</h3>
+                <p>Ta del av våra fantastiska erbjudanden!</p>
+              </div>
+            </section>
+            <section class="col-12 border px-0 border-secondary rounded">
+              ${this.calendarShowing ? this.calendarShowing : ''}
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+  </section>
+</section>

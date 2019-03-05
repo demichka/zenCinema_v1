@@ -1,0 +1,32 @@
+{
+  "name": "zencinema",
+  "version": "1.0.0",
+  "description": "Website for cinema with simple booking system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SjolinFredrik/zenCinema.git"
+  },
+  "author": "grupp-don-3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SjolinFredrik/zenCinema/issues"
+  },
+  "homepage": "https://github.com/SjolinFredrik/zenCinema#readme",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.2.1",
+    "connect-mongo": "^2.0.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonflex": "^1.0.10",
+    "mongoose": "^5.4.6",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9"
+  }
+}

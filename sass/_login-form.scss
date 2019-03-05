@@ -1,0 +1,24 @@
+.login-form {
+  .login-menu {
+    padding: 1.2rem;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+
+.booking-system {
+  .login-form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparentize($accent-dark, .01);
+    z-index: 300;
+    padding-top: 50px;
+    @include media-breakpoint-down(xs) {
+      top: 50%;
+    }
+  }
+}

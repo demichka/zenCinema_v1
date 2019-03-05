@@ -1,0 +1,18 @@
+.message-wrap {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  background-color: transparent;
+  padding: 15%;
+  @include media-breakpoint-down(xs) {
+    top: 50%;
+    padding: 0;
+  }
+  .message {
+    padding: 50px;
+    background-color: $primary;
+  }
+}

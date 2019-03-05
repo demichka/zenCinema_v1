@@ -1,0 +1,69 @@
+.film-content {
+  background: linear-gradient(rgba(0,0,0,1) 98%,rgba(0,0,0,0));
+
+  h2 {
+    text-transform: capitalize;
+
+  }
+  .film-cover-img, .film-mobile-img {
+    position: relative;
+    background-size: cover !important;
+    background-position: top center !important;
+    width: 100%;
+    height: 80vh;
+    .inner-cover-img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: linear-gradient(180deg,rgba(15,15,15,0) 50%,#000);
+    }
+  }
+  .film-information {
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    .film-poster-img {
+      @include media-breakpoint-up(md){
+        margin-top: -14rem;
+        position: absolute;
+      }
+      border: 1px solid rgba(254, 208, 187, 0.5);
+      width: 250px;
+      margin: 0 auto;
+      display: block;
+    }
+    @include media-breakpoint-down(sm){
+      .btn-block-sm-down {
+      display: block;
+      width: 100%;
+      }
+    }
+    .tickets-btn, .trailer-btn {
+      min-width: 150px;
+      z-index: 320;
+    }
+    dd {
+      color: $secondary;
+    }
+    h2 {
+      color: white;
+      font-weight: 900;
+    }
+    span {
+      color: white;
+    }
+    .about-film {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.film-page-content {
+  .film-page-btns {
+    display: block;
+  }
+  .start-page-btns {
+    display: none;
+  }
+}

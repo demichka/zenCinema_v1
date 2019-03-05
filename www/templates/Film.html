@@ -1,0 +1,49 @@
+<section class="film-content col-sm-12 pb-5 mx-auto px-0">
+  <a class="a-over" href="/film/${this.link}"></a>
+  <div class="img-fluid film-cover-img d-none d-md-block" style="background: url(/images/movies/${this.images[1]})">
+    <div class="inner-cover-img"></div>
+  </div>
+  <div class="img-fluid film-mobile-img d-block d-md-none" style="background: url(/images/movies/${this.images[0]})">
+    <div class="inner-cover-img"></div>
+  </div>
+
+  <section class="container film-information">
+    <section class="row mb-5 pb-5">
+      <section class="class col-12 col-md-4">
+        <img class="img-fluid mx-auto d-none d-md-block film-poster-img" src="/images/movies/${this.images[0]}">
+      </section>
+      <section class="col-12 col-md-7 offset-md-1 offset-lg-0 col-lg-8 text-center text-md-left">
+        <h2 class="mt-2">${this.title}</h2>
+        <p>${Math.floor(this.length/60)} tim ${this.length%60} min | ${this.genre}</p>
+        <div class="film-page-btns">
+            <a data-scroll role="button" href="#film-shows" class="btn btn-primary btn-block-sm-down tickets-btn"><i class="fa fa-ticket"></i> Biljetter</a>
+            <button role="button" data-toggle="modal" data-target="#trailerModal" class="btn btn-secondary btn-block-sm-down mt-3 mt-md-0 ml-md-4 trailer-btn"><i class="fa fa-film"></i> Se Trailer</button>
+        </div>
+        <div class="start-page-btns">
+            <a data-scroll role="button" href="/film/${this.link}" class="btn btn-primary btn-block-sm-down tickets-btn"><i class="fa fa-ticket"></i> Biljetter</a>
+            <button role="button" data-toggle="modal" data-target="#trailerModal" class="btn btn-secondary btn-block-sm-down mt-3 mt-md-0 ml-md-4 trailer-btn"><i class="fa fa-film"></i> Se Trailer</button>
+        </div>
+      </section>
+    </section>
+    <section class="row my-5">
+      <section class="col-12 col-md-8 pt-0 pr-md-5">
+        <dl>
+          <dd>${this.description}</dd>
+        </dl>
+      </section>
+      <section class="col-12 col-md-4 mt-5 mt-md-0 pt-0">
+        <dl class="about-film">
+          <dd><span>Regi:</span> ${this.directors.length > 0 ? this.directors.join(', ') : this.directors}</dd>
+          <dd><span>Land:</span> ${this.productionCountries.join(', ')}</dd>
+          <dd><span>År:</span> ${this.productionYear}</dd>
+          <dd><span>Studio:</span> ${this.distributor}</dd>
+          <dd><span>Språk:</span> ${this.language}</dd>
+          <dd><span>Textning:</span> ${this.subtitles ? this.subtitles : 'Ingen textning'}</dd>
+          <dd><span>Skådespelare:</span> ${this.actors.join(', ')}</dd>
+        </dl>
+      </section>
+      ${this.trailer}
+    </section>
+
+  </section>
+</section>

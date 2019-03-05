@@ -1,0 +1,47 @@
+<div class="customer-bookings-page dark-bg-content container">
+  <div class="row">
+
+    <div class="col-sm-12 mx-auto bookings-heap">
+      <ul class="nav nav-pills mb-3" id="bookings-heap-pills" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="actual-bookings-pill" data-toggle="pill" href="#actual-bookings-heap" role="tab"
+            aria-controls="actual-bookings-heap" aria-selected="true">Aktuella</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="archive-bookings-pill" data-toggle="pill" href="#archive-bookings-heap" role="tab"
+            aria-controls="archive-bookings-heap" aria-selected="false">Arkiv</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="bookings-heap-content">
+        <div class="tab-pane fade show active" id="actual-bookings-heap" role="tabpanel" aria-labelledby="actual-bookings-pill">
+          <div class="customer-booking col-sm-12 mx-auto">
+            <table>
+              <tr>
+                <th>Film</th>
+                <th>Datum</th>
+                <th>Tid</th>
+                <th>Ref.nr</th>
+              </tr>
+              ${this.customerActualBookings ? this.customerActualBookings : 'Vänligen vänta'}
+            </table>
+          </div>
+
+        </div>
+        <div class="tab-pane fade" id="archive-bookings-heap" role="tabpanel" aria-labelledby="archive-bookings-pill">
+          <div class="customer-booking col-sm-12 mx-auto">
+            <table>
+              <tr>
+                <th>Film</th>
+                <th>Datum</th>
+                <th>Tid</th>
+                <th>Ref.nr</th>
+              </tr>
+              ${this.customerArchiveBookings ? this.customerArchiveBookings : 'Vänligen vänta'}
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

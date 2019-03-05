@@ -1,0 +1,12 @@
+footer {
+  background-image: linear-gradient(to top, #6e0e1e, rgba(20, 2, 10, 0.8));
+  .container-fluid {
+    .footer-heading {
+      font-size: 1.3em;
+    }
+    a {
+      color: $secondary;
+      text-decoration: none;
+    }
+  }
+}

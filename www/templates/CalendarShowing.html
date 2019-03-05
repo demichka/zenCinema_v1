@@ -1,0 +1,33 @@
+<section class="calendar-showings text-dark">
+    <div class="bg-secondary text-center">
+    <h2 class="my-auto py-1">Kalendarium</h2>
+  </div>
+  <section class="row pl-0 pr-2 mx-auto calendar-item rounded">
+    <div class="col-2 col-md-3 col-lg-2">
+      <strong>Dag:</strong>
+    </div>
+    <div class="col-6 col-md-5 col-lg-6">
+      <strong>Film:</strong>
+    </div>
+    <div class="col-2">
+      <strong>Tid:</strong>
+    </div>
+  </section>
+  ${this.showingData.map((f, i) => `
+  <section class="row pl-0 pr-2 mx-auto calendar-item rounded">
+    <div class="col-2 col-md-3 col-lg-2">
+      <p>${new Date(f.date).toLocaleDateString('sv-SE', {month: 'numeric', day: 'numeric'})}</p>
+    </div>
+    <div class="col-6 col-md-5 col-lg-6">
+      <p>${f.film.title}</p>
+    </div>
+    <div class="col-2">
+      <p>${f.time}</p>
+    </div>
+    <div class="col-2 py-1 px-0 text-right">
+      <a role="button" class="btn btn-outline-dark" href="/film/${f.film.link}">></a>
+    </div>
+  </section>
+  `).join('')}
+
+</section>

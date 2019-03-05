@@ -1,0 +1,15 @@
+.calendar-showings {
+  .calendar-item {
+    background-image: linear-gradient(45deg, $secondary 0%, #fbded6 99%, #fbded6 100%);
+    margin: 10px !important;
+    & > div { 
+      margin: auto 0;
+      & > p {
+        margin-bottom: 0;
+      }
+    }
+    .showings-day {
+      text-transform: capitalize;
+    }
+  }
+}

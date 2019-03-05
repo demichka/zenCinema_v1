@@ -1,0 +1,53 @@
+<section class="booking-system container-fluid">
+
+  <div class="col-sm-8 mx-auto">${this.ticketSelection ? this.ticketSelection : ''}</div>
+
+    ${this.film ? `
+      <div class="row align-items-center justify-content-center no-gutters">
+        <div class="col-lg-6 show-info" style="background-image: url(/images/movies/${this.film.images[1]})">
+          <div class="drop"></div>
+
+          <dl class="col-md-6 mx-auto slideInUp ">
+              <dt>${this.film.title}</dt>
+              <dd>${Math.floor(this.film.length/60)} tim ${this.film.length%60} min | ${this.film.genre}</dd>
+              <dd>Salong: ${this.saloonName}</dd>
+              <dd>Tid: ${this.showingDate ? this.showingDate : ''} | ${this.time}</dd>
+            </dl>` : ''}
+        </div>
+          
+      </div>
+
+
+
+
+  
+  
+
+  
+  <div class="seats-selection">
+    <div class="row seat-wrap">
+        <div class="screen-light left-angle"></div>
+
+        <div class="col-sm-8 mx-auto">
+            ${this.seatsGrid ? this.seatsGrid : ''}
+        </div>
+      <div class="screen-light right-angle"></div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-sm-7 mx-auto py-4">
+      ${this.bookingSummary ? this.bookingSummary : ''}
+      <button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-outline-secondary" >Avbryt</button>      
+      ${this.loggedInUser || Store.loggedInUser ? `
+      <button type="button" class="btn btn-secondary save-booking" >Boka</button> ` : `
+      <button type="button" class="btn btn-secondary open-login-form" >Logga in</button> 
+      <p class="mt-1">Vänligen logga in eller skapa nytt konto för att boka biljetter</p>
+      `}
+    </div>
+    ${this.message ? this.message : ''}
+    ${this.loginForm && !this.loginForm.used ? this.loginForm : ''}
+    ${this.registerForm && this.registerForm !== 0 ? this.registerForm : ''}
+  </div>
+</section>

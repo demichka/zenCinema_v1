@@ -1,0 +1,25 @@
+.film-collection {
+  .film-poster {
+    text-transform: capitalize;
+    .film-poster-content {
+      border-radius: 8px;
+      &:hover{
+        background-color: transparentize($primary, .3)
+      }
+    }
+  }
+}
+.film-carousel{
+  text-transform: capitalize;
+  .carousel-item h5 {
+    letter-spacing: .15rem;
+    text-shadow: 0 0 5px #000;
+  }
+  .a-over {
+    height: 100%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    z-index: 301;
+  }
+}

@@ -1,0 +1,89 @@
+.seats-grid {
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.seats-row {
+  display: block;
+  text-align: center;
+  @include clearfix();
+  &.best {
+   .seat {
+      box-shadow: 1px 1px 1px $secondary;
+   } 
+  }
+
+  &:nth-child(6),
+    &:nth-child(5){
+    margin-left: -70px;
+    @include media-breakpoint-down(xs) {
+      margin-left: 0px;
+    }
+  }
+  &:nth-child(7),
+    &:nth-child(8){
+    width: 100%;
+    @include media-breakpoint-down(xs) {
+      margin-left: 0px;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    display: table;
+    table-layout: fixed;
+    border-spacing: 5px;
+    margin: auto;
+  }
+  .seat {
+    display: inline-block;
+    position: relative;
+    background-color: $accent-light;
+    border-radius: 3px 3px 12px 12px;
+    padding: 7px 0;
+    white-space: nowrap;
+    font-size: .75rem;
+    width: 30px;
+    margin: 3px;
+    text-align: center;
+    cursor: pointer;
+    @include media-breakpoint-down(xs) {
+    display: table-cell;
+    font-size: 0px;
+    padding: 8px 10px;
+    width: auto;    
+    }
+    &.taken {
+      cursor: default;
+      background-color: $primary;
+    }
+    &.valid-seats {
+      background-color: #fff;
+    }
+    &.invalid-seats {
+      cursor: default;
+      background-color: $primary;
+    }
+    &.chosen-seats {
+      animation: blinker 1s linear infinite;
+    }
+    @keyframes blinker {
+      0% { opacity: 1; }
+      50% { background-color: #fff; }
+      100% { opacity: 1; }
+    }
+    .ghost-div {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0;
+    }
+  }
+}
+
+
+.film-page-content {
+  .seat {
+    color: $secondary;
+  }
+}

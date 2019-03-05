@@ -1,0 +1,34 @@
+
+// Here we can add our overrides to the bootstrap !default values. If this file is empty bootstrap goes default.
+@import '_bootstrap-overrides';
+
+// Here we include the main (and original) boostrap.scss which in its turn imports the entire library.
+@import 'bootstrap_original/bootstrap';
+
+//Here we include all our styles
+
+@import '_custom-variables';
+@import '_custom-mixins';
+@import '_basic-style';
+@import '_nav-bar';
+@import '_login-form';
+@import '_register-page';
+@import '_film';
+@import '_showing';
+@import '_booking-system';
+@import '_seats-grid';
+@import '_message';
+@import '_calendar-showing';
+@import '_ticketPrice';
+@import '_trailer-modal';
+@import '_footer-style';
+@import '_custom-modal';
+@import '_saloon-techinfo';
+@import '_films-collection';
+@import '_booking-summary';
+@import '_zen-coin.scss';
+@import '_customerBookingPage';
+@import '_kiosk';
+
+
+

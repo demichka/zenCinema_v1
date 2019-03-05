@@ -1,0 +1,21 @@
+<div class="showing col-12 col-md-10 offset-md-1 px-0 text-left">
+  <div class="container-fluid">
+    <div class="row px-0">
+      <div class="col-4 col-md-3 pl-2 pr-0">
+        <strong>Salong:</strong> <br> ${this.saloon.name}
+      </div>
+      <div class="col-3 film-title d-none d-md-block">
+        <strong>Film:</strong> <br> ${this.film.title}
+      </div>
+      <div class="col-3 col-md-3 pl-2 px-md-0">
+        <strong>Datum:</strong> <br> ${this.dateToString}
+      </div>
+      <div class="col-2 col-md-1 px-0">
+        <strong>Tid:</strong> <br> ${this.time}
+      </div>
+      <div class="col-3 col-md-2 pr-2 my-auto">
+        <button title="Boka ${this.film.title}" class="btn btn-secondary float-right book-film">Boka</button>
+      </div>
+    </div>
+  </div>
+</div>

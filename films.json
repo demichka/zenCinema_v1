@@ -1,0 +1,243 @@
+[
+  {
+    "title": "Husdjurens Hemliga Liv",
+    "productionCountries": [
+      "Italien"
+    ],
+    "productionYear": "2016",
+    "length": "132",
+    "genre": "Animerad",
+    "language": "Svenska",
+    "subtitles": "",
+    "distributor": "Universal Pictures",
+    "directors": "Chris Renaud",
+    "actors": [
+      "Kodjo Akolor",
+      "Erik Haag",
+      "Fredde Granberg"
+    ],
+    "description": "<p>En Jack Russell Terrier heter Max lever med sin ägare Katie i en Manhattan lägenhet. Medan hon är på jobbet under dagen hänger han ute med andra husdjur i byggnaden: Tabby-katt Chloe, Pugen Mel, Taxen Buddy och Budgerigar Sweet Pea. En dag adopterar Katie Duke, en stor mongrel från ett hundhem, och lämnar Max avundsjuk på grund av hennes delade fokus på Duke. Förskräckt av Maxs inställning till honom, försöker Duke att överge Max i en gränd, men de attackeras båda av katter som leds av Sphynx cat Ozone, som stjäl deras hundhalsband och låter dem fångas av Animal Control. Duke fruktar att han kommer att dödas om han åker tillbaka till hundhemmet. När Gidget, en vit Pomeranian som är (inte så) i hemlighet kär i Max, upptäcker att han saknas, bestämmer hon sig för att hitta honom. Låt äventyret börja.</p>",
+    "images": [
+      "secret-life-of-pets.jpg",
+      "secret-life-of-pets-cover.jpg"
+    ],
+    "youtubeTrailers": [
+      "QBOxYQNEfhU"
+    ],
+    "reviews": [
+      {
+        "source": "aftonbladet",
+        "quote": "gullig action i New York",
+        "stars": "3",
+        "max": "5"
+      },
+      {
+        "source": "moviezine",
+        "quote": "träffsäkert och underhållande om våra fyrbenta vännner",
+        "stars": "4",
+        "max": "5"
+      },
+      {
+        "source": "expressen",
+        "quote": "fyndigheten är förförisk",
+        "stars": "3",
+        "max": "5"
+      }
+    ],
+    "link": "husdjurens-hemliga-liv"
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "productionCountries": [
+      "Storbritannien",
+      "USA"
+    ],
+    "productionYear": "2018",
+    "length": "134",
+    "genre": "Drama",
+    "distributor": "20th Centery Fox",
+    "language": "Engelska",
+    "subtitles": "Svenska",
+    "directors": "Bryan Singer",
+    "actors": [
+      "Rami Malek",
+      "Lucy Boynton",
+      "Gwilym Lee",
+      "Ben Hardy",
+      "Joseph Mazzello"
+    ],
+    "description": "<p>Bohemian Rhapsody är en hyllning till Queen, deras musik och enastående sångare Freddie Mercury, som trotsade stereotyperna, rev upp konventionerna och blev en av världens mest älskade underhållare. Filmen följer bandets explosionsartade uppgång genom deras ikoniska låtar och revolutionerande sound, när bandet nästan splittras på grund av Mercuys urspårade livsstil och den triumfartade återföreningen under Live Aid då Mercury leder bandet i ett av de mäktigaste framträdandena i rockhistorien, samtidigt som han kämpar mot en livshotande sjukdom. Under tiden cementerar de arvet från ett band som fortsätter att inspirera outsiders, drömmare och musikälskare än idag.</p>",
+    "images": [
+      "bohemian-rhapsody.jpg",
+      "bohemian-rhapsody-cover.jpg"
+    ],
+    "youtubeTrailers": [
+      "mP0VHJYFOAU"
+    ],
+    "reviews": [
+      {
+        "source": "aftonbladet",
+        "quote": "Rami Malek imponerar i huvudrollen",
+        "stars": "3",
+        "max": "5"
+      },
+      {
+        "source": "moviezine",
+        "quote": "en lika träffsäker som trallvänlig skildring av rocklegenderna Queens",
+        "stars": "4",
+        "max": "5"
+      },
+      {
+        "source": "svt",
+        "quote": "det är nästan sing-a-long-stämning",
+        "stars": "4",
+        "max": "5"
+      }
+    ],
+    "link": "bohemian-rhapsody"
+  },
+  {
+    "title": "A Star is Born",
+    "productionCountries": [
+      "USA"
+    ],
+    "productionYear": "2018",
+    "length": "135",
+    "genre": "Drama",
+    "distributor": "Warner Bros. Pictures",
+    "language": "Engelska",
+    "subtitles": "Svenska",
+    "directors": "Bradley Cooper",
+    "actors": [
+      "Lady Gaga",
+      "Bradley Cooper"
+    ],
+    "description": "<p>Ally har precis gett upp sin dröm om att slå igenom som sångerska, när hon en dag upptäcks av musikern Jack som ger henne en välbehövlig spark in i rampljuset. Men när Allys karriär äntligen börjar ta fart så håller deras relation på att rasera, samtidigt som Jack kämpar mot sina egna inre demoner …</p>",
+    "images": [
+      "a-star-is-born.jpg",
+      "a-star-is-born-cover.jpg"
+    ],
+    "youtubeTrailers": [
+      "nSbzyEJ8X9E"
+    ],
+    "reviews": [
+      {
+        "source": "aftonbladet",
+        "quote": "Lady Gagas imponerande insats i huvudrollen, gör att den både roar, berör och känns trovärdig",
+        "stars": "3",
+        "max": "5"
+      },
+      {
+        "source": "moviezine",
+        "quote": "Nackhåren reser sig när Lady Gaga sjunger",
+        "stars": "4",
+        "max": "5"
+      },
+      {
+        "source": "svt",
+        "quote": "väldigt romantisk, spännande i början och helt sentimental på slutet",
+        "stars": "4",
+        "max": "5"
+      }
+    ],
+    "link": "a-star-is-born"
+  },
+  {
+    "title": "Bumblebee",
+    "productionCountries": [
+      "USA"
+    ],
+    "productionYear": "2018",
+    "length": "114",
+    "genre": "Action",
+    "distributor": "Paramount Pictures",
+    "language": "Engelska",
+    "subtitles": "Svenska",
+    "directors": "Travis Knight",
+    "actors": [
+      "Hailee Steinfeld",
+      "John Cena",
+      "Jorge Lendeborg Jr.",
+      "John Ortiz",
+      "Jason Drucker"
+    ],
+    "description": "<p>Året är 1987. Bumblebee är på flykt och tar skydd på ett skrotupplag i en liten kalifornisk strandstad, där den unga flickan Charlie, en osäker tonåring, hittar den stridsärrade och skadade Bumblebee.</p>",
+    "images": [
+      "bumblebee.jpg",
+      "bumblebee-cover.jpg"
+    ],
+    "youtubeTrailers": [
+      "lcwmDAYt22k"
+    ],
+    "reviews": [
+      {
+        "source": "aftonbladet",
+        "quote": "Underhållande nystart för Transformers",
+        "stars": "3",
+        "max": "5"
+      },
+      {
+        "source": "moviezine",
+        "quote": "underhåller och roar",
+        "stars": "3.5",
+        "max": "5"
+      },
+      {
+        "source": "svd",
+        "quote": "Ljuvlig underhållning med formskiftande skrothögar",
+        "stars": "4",
+        "max": "5"
+      }
+    ],
+    "link": "bumblebee"
+  },
+  {
+    "title": "Glass",
+    "productionCountries": [
+      "USA"
+    ],
+    "productionYear": "2019",
+    "length": "129",
+    "genre": "Action",
+    "distributor": "Universal Pictures",
+    "language": "Engelska",
+    "subtitles": "Svenska",
+    "directors": "M. Night Shyamalan",
+    "actors": [
+      "James McAvoy",
+      "Bruce Willis",
+      "Samuel L. Jackson",
+      "Anya Taylor-Joy",
+      "Sarah Paulson"
+    ],
+    "description": "<p>Glass tar vid där Split slutade och Dunn jagar nu Crumbs övernaturliga alter ego The Beast i en allt intensivare jakt. I skuggorna väntar Price, som sitter inne med avgörande hemligheter rörande de bägge männen. Från Unbreakable ser vi återigen Bruce Willis i rollen som David Dunne och Samuel L. Jackson som Elija Price, även känd under sin pseudonymen Mr Glass. James McAvoy återvänder från Split och repriserar sin roll som Kevin Wendell Crump och alla de olika personligheter som finns inom honom. Även Anya Taylor-Joy, som spelade Casey Cooke, den enda fången som överlevde mötet med The Beast, återkommer i sin roll.</p>",
+    "images": [
+      "glass.jpg",
+      "glass-cover.jpg"
+    ],
+    "youtubeTrailers": [
+      "95ghQs5AmNk"
+    ],
+    "reviews": [
+      {
+        "source": "aftonbladet",
+        "quote": "M. Night Shyamlans ”Glass” är skrattretande pretentiös – och alldeles, alldeles underbar",
+        "stars": "3",
+        "max": "5"
+      },
+      {
+        "source": "moviezine",
+        "quote": "M. Night Shyamalans oväntade uppföljare till Unbreakable och Split är ännu en jordnära flört med serietidningsgenren",
+        "stars": "3.5",
+        "max": "5"
+      },
+      {
+        "source": "p1",
+        "quote": "Skruvad Glass fullbordar Shyamalans trilogi om superkrafter",
+        "stars": "4",
+        "max": "5"
+      }
+    ],
+    "link": "glass"
+  }
+]
